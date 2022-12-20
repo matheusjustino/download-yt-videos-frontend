@@ -40,8 +40,6 @@ function useForm<T>(initialState: T): [T, HandleForm, ResetForm] {
 	const [form, dispatch] = useReducer(formReducer, initialState);
 
 	const handleForm: HandleForm = (event) => {
-		console.log("entrou no handleform");
-
 		const { name, value } = event.target;
 		dispatch({
 			type: ACTION_TYPES.HANDLE_FORM,
