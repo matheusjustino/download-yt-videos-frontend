@@ -1,6 +1,7 @@
 # Sobre a aplicação
 
-    Aplicação feita em Next que integra um backend em NodeJs. Foi criada para facilitar o download de vídeos do Youtube.
+    Aplicação feita em Next que integra um backend em NodeJs.
+    Foi criada para facilitar o download de vídeos do Youtube.
 
 ## Backend
 
